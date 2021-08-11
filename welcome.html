@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('welcome.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: rgb(230, 20, 20);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  background-color: black;
+  margin: auto;
+  width: 40%;
+}
+h2{
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: rgb(230, 20, 20);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+p{
+  padding: 10px;
+  margin: 10px ;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(245, 6, 6);
+  font-size: 1em;
+  border-radius: 9px;
+  border: 1px solid rgb(241, 8, 8);
+  transition: all 0.3s linear;
+}
+p:hover{
+  box-shadow: 10px 11px 35px 10px rgba(0, 0, 0, 0.322);
+  border-color: black;
+  transform: rotate(-7deg);
+}
+
+a{
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div class="bgimg">
+  <div class="middle">
+    <h1>Hellooooooo</h1>
+    <hr>
+    <h2>Welcome To Caption Code</h2>
+  </div>
+  <p class="logout"><a href="login.html" class="logout">Logout</p>
+</div>
+</body>
+</html>
